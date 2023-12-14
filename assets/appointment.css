@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rock Salt', cursive;
+    letter-spacing: .1rem;
+    word-spacing: .5rem;
+}
+html, header{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.navbar-nav .nav-item:hover{
+    text-shadow: 2px 3px #e78f09;
+    transition: 0.6s;
+}
+div h1:hover{
+    text-shadow: 4px 5px #e78f09;
+    transition: 0.6s;
+}
+.bardesign1{
+    border: 2px;
+    height: 5px;
+    background: #e78f09;
+}
+.navbar .container img{
+    height: 100px;
+    width: 200px;   
+}
+.navbar .container img:hover{
+    opacity: 0.7;
+}
+section {
+    background-image: url(../assets/tattooimages/pexels-adrian-boustead-955938.jpg);
+    background-size: cover;
+}
+
+input[type=tel]{
+    width: 30%;
+    padding: 5px 0 5px 0;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background-color: #f1f1f1;
+}
+div input.code{
+    width: 8%;
+    
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding: 15px 0 15px 0;
+    margin: 10px 0 10px 0;
+    display: block;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+textarea:focus{
+    background-color: orange;
+    outline: none;
+}
+div{
+    padding: 1rem 0 0 0;
+}
+hr{
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+.registerbtn{
+    background-color: rgb(240, 197, 9);
+    color: rgb(15, 15, 15);
+    /* padding: 16px 20px; */
+    margin: 0px 0;
+    border: none;
+    cursor: pointer;
+    /* width: 20%; */
+}
+.registerbtn:hover{
+    opacity: 0.7;
+}
+footer{
+    max-width: 100%;
+    margin-top: 0px;
+}
+
+/*---popup----*/
+.popup{
+    width: 300px; 
+    background: rgb(49, 49, 45);
+    border-radius: 6px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    margin-top: 10%;
+    transform: translate(-50%,-50%)scale(0.1); 
+    text-align: center;
+    padding: 0 30px 30px;
+    color: rgb(226, 188, 16); 
+    z-index: 1;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+.open-popup{
+   visibility: visible;
+   top: 80%;
+   transform: translate(-50%,-50%)scale(1);
+}
+.popup img{
+   width: 100px;
+   margin-top: -50px;
+   border-radius: 50%;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.popup h2{
+   font-size: 33px;
+   font-weight: 500;
+   margin: 30px 0 10px;
+}
+.popup button{
+   width: 100%;
+   margin-top: 50px;
+   padding: 10px 0;
+   background: #6fd649;
+   color: #fff;
+   border: 0;
+   outline: none;
+   font-size: 18px;
+   border-radius: 4px;
+   cursor: pointer;
+   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-nav {
+        text-align: center;
+        background-color: #555555;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+        background-color: #555555;
+    }
+}
