@@ -1,227 +1,396 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Mini Project</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/index.css" type="text/css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <title>Mini-Project Tatoo Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/index.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
-  <!--Banner-->
-  <div class="navbar">
-    <div class="banner-image d-flex justify-content-center align-items-center" id="banner-img">
-      <div class="content text-center">
-        <p class="text-warning">LOCAL TATTOO ARTIST</p>
-        <div class="text-shadow-pop-left" >
-          <hr class="bardesign">
+  <body>
+    <!--Banner-->
+    <div class="navbar-content">
+      <div
+        class="banner-image d-flex justify-content-center align-items-center"
+        id="banner-img"
+      >
+        <div class="content text-center">
+          <p class="text-warning">LOCAL TATTOO ARTIST</p>
+          <div class="text-shadow-pop-left">
+            <hr class="bardesign" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Navbar-->
+      <nav
+        class="navbar fixed-top navbar-expand-lg navbar-dark p-md-2 col-sm-12 col-md-12 col-lg-12"
+      >
+        <div class="container">
+          <a href="index.html" target="_blank"
+            ><img
+              class="image-fluid"
+              src="assets/tattooimages/logo.png"
+              alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mx-auto"></div>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a href="pages/appointment.html" class="nav-link text-warning"
+                  >Appointment</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="pages/artists.html" class="nav-link text-warning"
+                  >Artists</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="pages/services.html" class="nav-link text-warning"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="pages/shop.html" class="nav-link text-warning">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a href="pages/privacy.html" class="nav-link text-warning"
+                  >Privacy & Policy</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="pages/about.html" class="nav-link text-warning"
+                  >About</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!--Carousel-->
+    <div
+      class="carousel-slide"
+      data-bs-ride="carousel"
+      id="carouselExampleIndicators"
+    >
+      <div class="carousel-indicators">
+        <button
+          aria-label="Slide 1"
+          class="active"
+          data-bs-slide-to="0"
+          data-bs-target="#carouselExampleIndicators"
+          type="button"
+        ></button>
+        <button
+          aria-label="Slide 2"
+          data-bs-slide-to="1"
+          data-bs-target="#carouselExampleIndicators"
+          type="button"
+        ></button>
+        <button
+          aria-label="Slide 3"
+          data-bs-slide-to="2"
+          data-bs-target="#carouselExampleIndicators"
+          type="button"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="assets/tattooimages/pexels-gabriel-lara-3657575.jpg"
+            class="d-block w-100"
+            src="img/home-1.jpg"
+          />
+          <div class="carousel-caption">
+            <h5>
+              <a href="/pages/services.html" class="text-warning">Tattoo</a>
+            </h5>
+            <p>
+              If you would like to consult with one of our artists please visit
+              their portfolio page and contact us to schedule a free
+              consultation. If you would like to make a piercing appointment or
+              a free laser tattoo removal consultation, please call us directly
+              at 248-522-6644. We look forward to seeing you soon!
+            </p>
+            <p>
+              <a class="btn btn-warning mt-3" href="/pages/services.html"
+                >Learn More</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/tattooimages/pexels-gabriel-lara-3657563.jpg"
+            class="d-block w-100"
+            src="img/home-2.jpg"
+          />
+          <div class="carousel-caption">
+            <h5>
+              <a href="/pages/services.html" class="text-warning"
+                >Laser Removal</a
+              >
+            </h5>
+            <p>
+              Regardless of what design you come to us with, you can be
+              confident that our artists will give you exactly what you want. We
+              specialize in custom, one-of-a-kind tattoos.Our artists are
+              incredibly talented and will work with you to give you the perfect
+              tattoo. Bring any references for our artists, or even just an idea
+              you have in mind. We are experts at translating your thoughts and
+              ideas into a finished drawing.
+            </p>
+            <p>
+              <a class="btn btn-warning mt-3" href="/pages/services.html"
+                >Learn More</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        data-bs-slide="prev"
+        data-bs-target="#carouselExampleIndicators"
+        type="button"
+      >
+        <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        data-bs-slide="next"
+        data-bs-target="#carouselExampleIndicators"
+        type="button"
+      >
+        <span aria-hidden="true" class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--Card-->
+    <div class="artist-container">
+      <div class="artist-subcontainer">
+        <div class="card1">
+          <a href="mat.html">
+            <img
+              src="../miniproject/assets/tattooimages/artist/antoni-shkraba1.jpg"
+              class="card-img-top"
+              alt="..."
+              style="width: 20rem"
+            />
+          </a>
+          <div class="card-body">
+            <p>Antoni</p>
+          </div>
+        </div>
+        <div class="card2">
+          <a href="tes.html">
+            <img
+              src="../miniproject/assets/tattooimages/artist/andrea-piacquadio1.jpg"
+              class="card-img-top"
+              alt="..."
+              style="width: 20rem; height: 30rem"
+            />
+          </a>
+          <div class="card-body">
+            <p>Andrea</p>
+          </div>
+        </div>
+        <div class="card3">
+          <a href="kat.html">
+            <img
+              src="../miniproject/assets/tattooimages/artist/ann1.jpg"
+              class="card-img-top"
+              alt="..."
+              style="width: 20rem; height: 30rem"
+            />
+          </a>
+          <div class="card-body">
+            <p>Ann</p>
+          </div>
+        </div>
+        <div class="card4">
+          <a href="ton.html">
+            <img
+              src="../miniproject/assets/tattooimages/artist/gabriel-lara1.jpg"
+              class="card-img-top"
+              alt="..."
+              style="width: 20rem; height: 30rem"
+            />
+          </a>
+          <div class="card-body">
+            <p>Gabriel</p>
+          </div>
+        </div>
+        <div class="card5">
+          <a href="jack.html">
+            <img
+              src="../miniproject/assets/tattooimages/artist/maria-geller.jpg"
+              class="card-img-top"
+              alt="..."
+              style="width: 20rem; height: 30rem"
+            />
+          </a>
+          <div class="card-body">
+            <p>Jack</p>
+          </div>
+        </div>
+        <div class="card6">
+          <a href="anton.html">
+            <img
+              src="../miniproject/assets/tattooimages/artist/pavel-danilyuk1.jpg"
+              class="card-img-top"
+              alt="..."
+              style="width: 20rem; height: 30rem"
+            />
+          </a>
+          <div class="card-body">
+            <p>Pavel</p>
+          </div>
+        </div>
+        <div class="card7">
+          <a href="len.html">
+            <img
+              src="../miniproject/assets/tattooimages/artist/rodnae-productions.jpg"
+              class="card-img-top"
+              alt="..."
+              style="width: 20rem; height: 30rem"
+            />
+          </a>
+          <div class="card-body">
+            <p>Len</p>
+          </div>
+        </div>
+        <div class="card8">
+          <a href="ann.html">
+            <img
+              src="../miniproject/assets/tattooimages/artist/michael-burrows1.jpg"
+              class="card-img-top"
+              alt="..."
+              style="width: 20rem; height: 30rem"
+            />
+          </a>
+          <div class="card-body">
+            <p>Kat</p>
+          </div>
         </div>
       </div>
     </div>
 
-  <!-- Navbar-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-2 col-sm-12 col-md-12 col-lg-12">
-      <div class="container">
-        <a href="index.html" target="_blank"><img class="image-fluid" src="assets/tattooimages/logo.png" alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <div class="mx-auto"></div>
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a href="pages/appointment.html"
-                class="nav-link text-warning">Appointment</a>
-            </li>
-            <li class="nav-item">
-              <a href="pages/artists.html" class="nav-link text-warning">Artists</a>
-            </li>
-            <li class="nav-item">
-              <a href="pages/services.html" class="nav-link text-warning">Services</a>
-            </li>
-            <li class="nav-item">
-              <a href="pages/shop.html" class="nav-link text-warning">Shop</a>
-            </li>
-            <li class="nav-item">
-              <a href="pages/privacy.html" class="nav-link text-warning">Privacy & Policy</a>
-            </li>
-            <li class="nav-item">
-              <a href="pages/about.html" class="nav-link text-warning">About</a>
-            </li>
-          </ul>
+    <!---Footer-->
+    <footer class="bg-dark text-white pt-5 pb-4">
+      <div class="cointainer text-center">
+        <div class="row text-center text-md-left">
+          <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5
+              class="text-lg-start text-warning"
+              class="text-uppercase mb-4 font-weight-bold"
+            >
+              Open Hours
+            </h5>
+            <p class="text-lg-start">
+              <a href="#" class="text-white" style="text-decoration: none"
+                >Monday - Friday</a
+              >
+            </p>
+            <p class="text-lg-start">
+              <a href="#" class="text-white" style="text-decoration: none"
+                >8:00am - 5:00pm</a
+              >
+            </p>
+            <p class="text-lg-start">
+              <a href="#" class="text-white" style="text-decoration: none"
+                >Saturday</a
+              >
+            </p>
+            <p class="text-lg-start">
+              <a href="#" class="text-white" style="text-decoration: none"
+                >8:00am - 12:00pm</a
+              >
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5
+              class="text-lg-start text-warning"
+              class="text-uppercase mb-4 font-weight-hold"
+            >
+              Contact
+            </h5>
+            <p class="text-lg-start">
+              <i style="font-size: 20px" class="fa">&#xf015;</i>Philippines,PH
+            </p>
+            <p class="text-lg-start">
+              <i style="font-size: 20px" class="fa">&#xf003;</i
+              >pintura@gmail.com
+            </p>
+            <p class="text-lg-start">
+              <i style="font-size: 20px" class="fa">&#xf095;</i>+63 1234567890
+            </p>
+            <p class="text-lg-start">
+              <i style="font-size: 20px" class="fa">&#xf230;</i>PINTURA
+            </p>
+          </div>
+        </div>
+        <hr class="mb-4" />
+        <div class="row align-items-center">
+          <div class="col-md-7 col-lg-8 mx-auto">
+            <p>
+              Copyright &copy, 2023 All rights reserved by:
+              <a href="#" style="text-decoration: none">
+                <strong class="text-warning">PINTURA</strong>
+              </a>
+            </p>
+          </div>
         </div>
       </div>
-    </nav>
-  </div>
+    </footer>
 
-  <!--Carousel-->
-  <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleIndicators">
-		<div class="carousel-indicators">
-			<button aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators" type="button"></button>
-		</div>
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="assets/tattooimages/pexels-gabriel-lara-3657575.jpg" class="d-block w-100" src="img/home-1.jpg">
-				<div class="carousel-caption">
-					<h5><a href="/pages/services.html" class="text-warning">Tattoo</a></h5>
-					<p>If you would like to consult with one of our artists please visit their portfolio page
-            and contact us to schedule a free consultation. If you would like to make a piercing appointment or a free
-            laser tattoo removal consultation, please call us directly at 248-522-6644. We look forward to seeing you
-            soon!</p>
-					<p><a class="btn btn-warning mt-3" href="/pages/services.html">Learn More</a></p>
-				</div>
-			</div>
-			<div class="carousel-item">
-				<img src="assets/tattooimages/pexels-gabriel-lara-3657563.jpg" class="d-block w-100" src="img/home-2.jpg">
-				<div class="carousel-caption">
-					<h5><a href="/pages/services.html" class="text-warning">Laser Removal</a></h5>
-					<p>Regardless of what design you come to us with, you can be confident that our artists will give you exactly what you want.
-             We specialize in custom, one-of-a-kind tattoos.Our artists are incredibly talented and will work with you to give you the perfect tattoo. Bring any references for our artists, or even just an idea you have in mind. We are experts at translating your thoughts and ideas into a finished drawing.</p>
-					<p><a class="btn btn-warning mt-3" href="/pages/services.html">Learn More</a></p>
-				</div>
-			</div>
-		</div><button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="visually-hidden">Previous</span></button> <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="visually-hidden">Next</span></button>
-	</div><!-- about section starts -->
-	<section class="about section-padding" id="about">
-
- <!--Card-->
- <div class="artist" class="container">
-  <div class="row text-center justify-content-center">
-    <div class="col-12 col-md-4 col-lg-3" style="width: 20rem; height: 15rem;">
-      <div class="card"><a href="mat.html">
-      <img src="../public_html/assets/tattooimages/artist/pexels-yogendra-singh-4117793.jpg" class="card-img-top" alt="..."></a>
-        <div class="card-body">
-          <p>Mat</a>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col-12 col-md-4 col-lg-3" style="width: 20rem; height: 15rem;">
-      <div class="card"><a href="tes.html">
-      <img src="../public_html/assets/tattooimages/artist/pexels-rodnae-productions-10474220.jpg" class="card-img-top" alt="..."></a> 
-        <div class="card-body">
-          <p>Tes</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-12 col-md-4 col-lg-3" style="width: 20rem; height: 15rem;">
-      <div class="card"><a href="kat.html">
-      <img src="../public_html/assets/tattooimages/artist/pexels-michael-burrows-7147827.jpg" class="card-img-top" alt="..."></a>
-        <div class="card-body">
-          <p>Kat</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-12 col-md-4 col-lg-3" style="width: 20rem; height: 15rem;">
-      <div class="card"><a href="ton.html">
-      <img src="../public_html/assets/tattooimages/artist/pexels-maria-geller-1803878.jpg" class="card-img-top" alt="..."></a>
-        <div class="card-body">
-          <p>Ton</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-12 col-md-4 col-lg-3" style="width: 20rem; height: 15rem;">
-      <div class="card"><a href="jack.html">
-      <img src="../public_html/assets/tattooimages/artist/pexels-andrea-piacquadio-3914554.jpg" class="card-img-top" alt="..."></a>
-        <div class="card-body">
-          <p>Jack</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-12 col-md-4 col-lg-3" style="width: 20rem; height: 15rem;">
-      <div class="card"><a href="anton.html">
-      <img src="../public_html/assets/tattooimages/artist/pexels-antoni-shkraba-7005731.jpg" class="card-img-top" alt="..."></a>
-        <div class="card-body">
-          <p>Anton</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-12 col-md-4 col-lg-3" style="width: 20rem; height: 15rem;">
-      <div class="card"><a href="len.html">
-      <img src="../public_html/assets/tattooimages/artist/pexels-antoni-shkraba-7005742.jpg" class="card-img-top" alt="..."></a>
-        <div class="card-body">
-          <p>Len</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-12 col-md-4 col-lg-3" style="width: 20rem; height: 15rem;padding: auto;">
-      <div class="card"><a href="ann.html">
-      <img src="../public_html/assets/tattooimages/artist/pexels-cottonbro-studio-4123891.jpg" class="card-img-top" alt="..."></a>
-        <div class="card-body">
-          <p>Ann</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-      <!---Footer-->
-       <footer class="bg-dark text-white pt-5 pb-4">
-        <div class="cointainer text-center">
-           <div class="row text-center text-md-left">
-              <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mt-3">
-                <h5 class="text-lg-start text-warning" class="text-uppercase mb-4 font-weight-bold">Open Hours</h5>
-                <p class="text-lg-start">
-                  <a href="#" class="text-white" style="text-decoration: none;">Monday - Friday</a>
-                </p>
-                <p class="text-lg-start">
-                  <a href="#" class="text-white" style="text-decoration: none;">8:00am - 5:00pm</a>
-                </p>
-                <p class="text-lg-start">
-                  <a href="#" class="text-white" style="text-decoration: none;">Saturday</a>
-                </p>
-                <p class="text-lg-start">
-                  <a href="#" class="text-white" style="text-decoration: none;">8:00am - 12:00pm</a>
-                </p>
-              </div>
-              <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mt-3">
-                <h5 class="text-lg-start text-warning" class="text-uppercase mb-4 font-weight-hold">Contact</h5>
-                  <p class="text-lg-start">
-                    <i style="font-size:20px" class="fa">&#xf015;</i>Philippines,PH
-                  </p>
-                  <p class="text-lg-start">
-                    <i style="font-size:20px" class="fa">&#xf003;</i>pintura@gmail.com
-                  </p>
-                  <p class="text-lg-start">
-                    <i style="font-size:20px" class="fa">&#xf095;</i>+63 1234567890
-                  </p>
-                  <p class="text-lg-start">
-                    <i style="font-size:20px" class="fa">&#xf230;</i>PINTURA
-                  </p>
-              </div>
-           </div>
-           <hr class="mb-4">
-           <div class="row align-items-center">
-            <div class="col-md-7 col-lg-8 mx-auto">
-              <p>Copyright &copy, 2023 All rights reserved by:
-                <a href="#" style="text-decoration: none;">
-                  <strong class="text-warning">PINTURA</strong>
-                </a></p>
-            </div>
-           </div>
-        </div>
-      </footer>
-
-  <!---Script-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+    <!---Script-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <script type="text/javascript">
-      var nav = document.querySelector('nav');
-      window.addEventListener('scroll', function () {
+      var nav = document.querySelector("nav");
+      window.addEventListener("scroll", function () {
         if (window.pageYOffset > 100) {
-          nav.classList.add('bg-dark', 'shadow');
+          nav.classList.add("bg-dark", "shadow");
         } else {
-          nav.classList.remove('bg-dark', 'shadow');
+          nav.classList.remove("bg-dark", "shadow");
         }
       });
     </script>
-
-</body>
+  </body>
 </html>
