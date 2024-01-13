@@ -55,13 +55,13 @@
        <div> <h1 class="text-warning col-lg-6 justify-content-center align-content-center banner-image w-100 vh-100 d-flex justify-content-center align-items-center">Registration Form</h1></div>
         <hr class="bardesign1">
         <form class="text-warning" class="col-md-12 col-lg-8 mx-auto">
-            <div class="fname col-lg-6 justify-content-center align-content-center">
+            <div col-lg-6 justify-content-center align-content-center">
             <label>First Name:</label>
-            <input type="text"  placeholder="Firstname" class="row justify-content-center col-lg-6 "/>
+            <input type="text"  name="fname" placeholder="Firstname" required/>
             <label>Middle Name:</label>
-            <input type="text" name="mname" placeholder="Middlename"/>
+            <input type="text" name="mname" placeholder="Middlename" required/>
             <label>Last Name:</label>
-            <input type="text" name="lname" placeholder="Lastname"/>
+            <input type="text" name="lname" placeholder="Lastname" required/>
             </div>
                 <div class="col-md-6 col-lg-8 justify-content-center">
                 <label>Services:</label>   
@@ -85,12 +85,12 @@
                 <div>
                 <label>Phone:</label>
                 <input class="code" type="tel" value="+63" />
-                <input type="tel" name="phone" placeholder="Phone no."/>
+                <input type="tel" name="phone" placeholder="Phone no." required/>
                 </div>
                 <label>Address:</label>
-                <textarea cols="70" rows="1" value="Address" ></textarea>
+                <textarea cols="70" rows="1" value="Address" required></textarea>
                 <label>Email:</label>
-                <input type="email" name="email" placeholder="email"/>
+                <input type="email" name="email" placeholder="email" required/>
                 <div class="col-md-12 mb-5">
                 <input class="registerbtn" type="button" name="submit" value="Sign Up" onclick="openPopup()"/>
                 </div>

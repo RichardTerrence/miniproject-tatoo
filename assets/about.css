@@ -1,98 +1,96 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Rock Salt', cursive;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rock Salt", cursive;
 }
-html, header{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+html,
+header {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 .text-center {
-    position: relative;
-  }
-  :root {
-    --fs-xsl: clamp(3.5rem, 3vw + 1rem, 12rem);
-    --fs-600: 2rem;
-    --fs-400: .8rem;
-  }
-  .text-image {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #fcbf07 ;
-    background-color: transparent;
-    padding: 1rem;
-  }
-
-
-  p {
-    font-family: 'Gill Sans'; 
-  }
-  h4 {
-    font-family:'Gill Sans'; 
-  }
-
-  .bardesign{
-    border: 2px;
-    height: 5px;
-    background: #e78f09;
+  position: relative;
 }
-div h1:hover{
-    text-shadow: 4px 5px #e78f09;
-    transition: 0.6s;
+:root {
+  --fs-xsl: clamp(3.5rem, 3vw + 1rem, 12rem);
+  --fs-600: 2rem;
+  --fs-400: 0.8rem;
 }
-.navbar .container img{
-    height: 100px;
-    width: 200px;   
-}
-.navbar .container img:hover{
-    opacity: 0.7;
-}
-.navbar-nav .nav-item:hover{
-    text-shadow: 2px 3px #e78f09;
-    transition: 0.6s;
+.text-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fcbf07;
+  background-color: transparent;
+  padding: 1rem;
 }
 
-.navbar-nav .nav-item:hover{
-    text-shadow: 2px 3px #e78f09;
-    transition: 0.6s;
+p {
+  font-family: "Gill Sans";
 }
-.text-warning h1:hover{
-    text-shadow: 4px 5px #e78f09;
-    transition: 0.6s;
+h4 {
+  font-family: "Gill Sans";
 }
 
-.navbar .container img{
-    height: 100px;
-    width: 200px;   
+.bardesign {
+  border: 2px;
+  height: 5px;
+  background: #e78f09;
 }
-.navbar .container img:hover{
-    opacity: 0.7;
+div h1:hover {
+  text-shadow: 4px 5px #e78f09;
+  transition: 0.6s;
+}
+.navbar .container img {
+  height: 100px;
+  width: 200px;
+}
+.navbar .container img:hover {
+  opacity: 0.7;
+}
+.navbar-nav .nav-item:hover {
+  text-shadow: 2px 3px #e78f09;
+  transition: 0.6s;
 }
 
-footer{
-    max-width: 100%;
-    margin-top: 0px;
+.navbar-nav .nav-item:hover {
+  text-shadow: 2px 3px #e78f09;
+  transition: 0.6s;
+}
+.text-warning h1:hover {
+  text-shadow: 4px 5px #e78f09;
+  transition: 0.6s;
+}
+
+.navbar .container img {
+  height: 100px;
+  width: 200px;
+}
+.navbar .container img:hover {
+  opacity: 0.7;
+}
+
+footer {
+  max-width: 100%;
+  margin-top: 0px;
 }
 @media (max-width: 576px) {
-    .nav-item {
-      font-size: var(--fs-400);
-    }
-    .text-white {
-      font-size: var(--fs-400);
-    }
-    p {
-      font-size: var(--fs-400);
-    }
-    .col-md-6 h3 {
-      font-size: var(--fs-400);
-    }
-
-   }
+  .nav-item {
+    font-size: var(--fs-400);
+  }
+  .text-white {
+    font-size: var(--fs-400);
+  }
+  p {
+    font-size: var(--fs-400);
+  }
+  .col-md-6 h3 {
+    font-size: var(--fs-400);
+  }
+}
